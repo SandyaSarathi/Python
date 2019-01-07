@@ -1,3 +1,4 @@
+#sandya
 n=int(input())
 if n>0:
 	if (n%2)==0:
