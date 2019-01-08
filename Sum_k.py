@@ -1,9 +1,6 @@
 #sandya
-n=int(input())
-k=int(input())
-l=[]
-for i in range(0,n):
-  l.append(int(input()))
+n,k=map(int,input().split(" "))
+l=[ int (i )for i in input().split()]
 j=0
 s=0
 while (j<k):
