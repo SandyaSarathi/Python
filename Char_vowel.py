@@ -1,4 +1,4 @@
-#sandya
+#sandya1
 a=input()
 l=['a','e','i','o','u']
 if a.isalpha():
