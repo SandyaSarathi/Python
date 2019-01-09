@@ -1,3 +1,4 @@
+#sandya
 c=input()
 if c.lower().isalpha():
     print("Alphabet")
