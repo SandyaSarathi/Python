@@ -12,4 +12,4 @@ for i in l:
 if f==1:
   print("yes")
 else:
-  print("no")
+  print("No")
