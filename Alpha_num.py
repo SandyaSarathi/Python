@@ -6,7 +6,7 @@ for i in s:
   elif i.isdigit():
     d=1
   if (a==1) & (d==1):
-    print("yes")
+    print("Yes")
     break
 if (a==0) or (d==0):
-  print("no")
+  print("No")
