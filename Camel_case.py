@@ -1,4 +1,7 @@
 s=input()
 s=s.split(" ")
+l=[]
 for i in s:
-  print(i[0].upper()+i[1:].lower(),end=" ")
+  x=i[0].upper()+i[1:].lower()
+  l.append(x)
+print(" ".join(l))
