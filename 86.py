@@ -10,7 +10,7 @@ for i in l:
         f=1
         break
 if f==1:
-    print("no")
+    print("No")
 else:
-    print("yes")
+    print("Yes")
     
