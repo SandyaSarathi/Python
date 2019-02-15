@@ -1,6 +1,6 @@
 #sandya
 s=input()
-if s=="Saturday" or "Sunday" or "Monday":
+if s=="Saturday" or "Sunday":
   print("yes")
 else:
   print("no")
