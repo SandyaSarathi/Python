@@ -1,5 +1,5 @@
 s=input()
-if s.isalpha():
+if s.isnumeric():
   print("yes")
 else:
   print("no")
