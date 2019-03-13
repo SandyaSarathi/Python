@@ -5,7 +5,10 @@ for i in range(0,len(l)):
   l1.append(max(l))
   k=l.index(max(l))
   del(l[k])
-s=""
-for i in l1:
-  s=s+str(i)
-print(s)
+if all(l1)==0:
+  print('0')
+else:
+  s=""
+  for i in l1:
+    s=s+str(i)
+  print(s)
