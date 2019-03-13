@@ -8,6 +8,9 @@ for i in range(0,len(l)):
         l1.append(l[i])
       break
 l1=sorted(l1)
-for i in range(0,len(l1)-1):
-  print(l1[i],end=" ")
-print(l1[len(l1)-1])
+if len(l1)==0:
+  print("unique")
+else:
+  for i in range(0,len(l1)-1):
+    print(l1[i],end=" ")
+  print(l1[len(l1)-1])
