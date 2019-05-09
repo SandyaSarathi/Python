@@ -1,6 +1,6 @@
 a=list(input())
 a=[int(i) for i in a]
-s=0
+s1=0
 for i in range(len(a)):
-	s=s+a[i]**i
-print(s)
+	s1=s1+a[i]**i
+print(s1)
