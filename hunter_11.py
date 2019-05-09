@@ -6,7 +6,6 @@ for i in range(0,len(s)):
     t=t+s[i]
   else:
     l.append(t)
-    print(l)
     t=""
 l.append(t)
 s1=""
