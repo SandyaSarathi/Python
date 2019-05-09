@@ -1,3 +1,4 @@
+#sandya
 a=input()
 from itertools import permutations
 perm = permutations(a) 
