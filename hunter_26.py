@@ -1,6 +1,6 @@
 n=int(input())
-l=[int(i) for i in input().split()]
-l=l[::-1]
-for i in range(len(l)-1):
-	print(str(l[i])+'->',end="")
-print(l[len(l)-1])
+l1=[int(i) for i in input().split()]
+l1=l1[::-1]
+for i in range(len(l1)-1):
+	print(str(l1[i])+'->',end="")
+print(l1[len(l1)-1])
