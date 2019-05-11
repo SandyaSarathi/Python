@@ -15,6 +15,6 @@ else:
 	  if l[i]>s1:
 		  l1.append(l[i])
   if len(l1)!=0:
-    print(l1[0])
+    print("".join(l1[0]))
   else:
     print("-1")
