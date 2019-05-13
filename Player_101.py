@@ -1,7 +1,9 @@
-# your code goes here
-n=int(input())
-l=[int(i) for i in input().split()]
-s=0
-for i in range(1,len(l)):
-	s+=l[i]
-print(s)
+input()
+l=[]
+a=list(map(int,input().split()))
+for i in range(0,len(a)-1):
+	if a[i]>a[i+1]:
+		l.append(a[i])
+	else:
+		l.append(a[i+1])
+print(sum(l))
