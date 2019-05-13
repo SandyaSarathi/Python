@@ -1,3 +1,4 @@
+#sandya
 input()
 l=[]
 a=list(map(int,input().split()))
