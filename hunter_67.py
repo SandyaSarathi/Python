@@ -1,5 +1,3 @@
-# coding: utf-8
-# Your code here!
 s=list(input().split("#"))
 s1=[int(i) for i in s if i.isdigit()]
 s1=sum(s1)
