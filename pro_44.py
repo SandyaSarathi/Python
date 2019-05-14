@@ -1,7 +1,7 @@
 # your code goes here
 n,p,q,r=map(int,input().split())
 l=list(map(int,input().split()))
-l=[]
+t=[]
 for i in range(0,n):
 	for j in range(i,n):
 		for k in range(j,n):
