@@ -1,3 +1,3 @@
-n=int(input())
-b=list(bin(n)[2:])
+d=int(input())
+b=list(bin(d)[2:])
 print(len(b))
