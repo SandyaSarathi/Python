@@ -1,2 +1,2 @@
-s=input()
-print(s+" "+"Answer")
+t=input()
+print(t+" "+"Answer")
