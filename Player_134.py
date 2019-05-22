@@ -1,3 +1,8 @@
-n,k,a=map(int,input().split())
-l=[int(i) for i in input().split()]
-print(min(l[k:a]))
+#san
+n,l,r=map(int,input().split())
+p=list(map(int,input().split()))
+p.sort()
+for i in p:
+    if i>=l and i<=r:
+        print(i)
+        break
