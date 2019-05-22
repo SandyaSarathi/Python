@@ -1,0 +1,11 @@
+#san
+n=int(input())
+l=list(map(int,input().split()))
+s=[]
+for i in range(n):
+	c=l[:i+1]
+	if sum(c)%2==0:
+		s.append(str(sum(c)))
+	else:
+		s.append(str(l[i]))
+print(" ".join(s))
