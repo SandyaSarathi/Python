@@ -1,2 +1,2 @@
-s=input()
-print(int(s[0])+int(s[-1]))
+t=input()
+print(int(t[0])+int(t[-1]))
