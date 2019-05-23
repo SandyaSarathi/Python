@@ -11,4 +11,3 @@ s.sort(key=lambda x:x[1])
 for i in range(n):
 	h.append(str(s[i][0]))
 print(j.join(h))
-© 2019 GitHub, Inc.
