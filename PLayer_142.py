@@ -3,7 +3,7 @@ l=[]
 for i in range(n):
 	l.append(input())
 c=0
-for i in range(n-k):
+for i in range(n-k+1):
 	t=l[i:k+1]
 	for j in t:
 		if j==l[i]:
