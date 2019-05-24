@@ -1,10 +1,10 @@
-s=input()
+n=input()
+l=["GLGLGL","GRRG","GLLG","GRGRGR"]
 c=0
-for i in s:
-	if i=='G':
+for i in range(0,len(l)):
+	if l[i] in n:
 		c+=1
-	elif i=='L':
-		c-=1
-	elif i=='R':
-		c-=2
-print("yes" if c==1 else "no")
+if c==1:
+	print("yes")
+else:
+	print("no")
