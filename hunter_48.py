@@ -4,4 +4,4 @@ if t in s:
 	a=s.index(t)
 	print(a)
 else:
-	print(-1)
+	print("-1")
