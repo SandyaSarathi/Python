@@ -1,7 +1,11 @@
 n=int(input())
-l=[int(i) for i in input().split()]
-a,b=map(int,input().split())
-i=l.index(a)
-j=l.index(b)
-print(abs(i-j))
-	
+l=list(map(int,input().split()))
+u,v=map(int,input().split())
+d=[]
+for i in range(n-1):
+	for j in range(i+1,n+1):
+		m=l[i:j]
+		if (m[0]==u and m[-1]==v) or (m[-1]==u and m[0]==v):
+			d.append(len(m))
+#res		
+print(min(d)-1)
