@@ -6,10 +6,10 @@ a=[]
 for i in l:
 	a.append("".join(i))
 i=a.index(n)
-if i!=len(a)-1:
+if n=='222':
+	print("impossible")
+elif i!=len(a)-1:
 	print(a[i+1])
-elif n=='222':
-	print(222)
 else:
 	print("impossible")
 	
