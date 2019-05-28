@@ -10,3 +10,4 @@ for i in range(len(l)):
 	else:
 		a.append(l[i])
 print(" ".join(a))
+#san
